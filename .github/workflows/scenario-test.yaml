@@ -110,8 +110,8 @@ jobs:
               architecture_type:=awf/universe/20250130 \
               record:=true \
               scenario:="$SCENARIO_FILE" \
-              sensor_model:=sample_sensor_kit \
-              vehicle_model:=sample_vehicle \
+              sensor_model:=scout_sensor_kit \
+              vehicle_model:=scout_vehicle \
               initialize_duration:=100 \
               output_directory:=./results \
               simulate_localization:=false \

@@ -7,8 +7,8 @@ run_scenario_simulator() {
 
     # Set default values if not provided
     ARCHITECTURE_TYPE=${ARCHITECTURE_TYPE:-awf/universe/20240605}
-    SENSOR_MODEL=${SENSOR_MODEL:-sample_sensor_kit}
-    VEHICLE_MODEL=${VEHICLE_MODEL:-sample_vehicle}
+    SENSOR_MODEL=${SENSOR_MODEL:-scout_sensor_kit}
+    VEHICLE_MODEL=${VEHICLE_MODEL:-scout_vehicle}
     INITIALIZE_DURATION=${INITIALIZE_DURATION:-90}
     GLOBAL_FRAME_RATE=${GLOBAL_FRAME_RATE:-30}
     OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY:-/autoware/scenario-sim/output}

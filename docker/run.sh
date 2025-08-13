@@ -26,7 +26,7 @@ DATA_PATH=""
 WORKSPACE_PATH=""
 USER_ID=""
 WORKSPACE=""
-DEFAULT_LAUNCH_CMD="ros2 launch autoware_launch autoware.launch.xml map_path:=/autoware_map vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit"
+DEFAULT_LAUNCH_CMD="ros2 launch autoware_launch autoware.launch.xml map_path:=/autoware_map vehicle_model:=scout_vehicle sensor_model:=scout_sensor_kit"
 
 # Function to print help message
 print_help() {

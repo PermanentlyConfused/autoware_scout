@@ -7,7 +7,7 @@ function download_planning_map() {
         unzip -d ~/autoware_map ~/autoware_map/sample-map-planning.zip
     fi
 }
-alias awf-launch-planning-sim='download_planning_map&&ros2 launch autoware_launch planning_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-planning vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit'
+alias awf-launch-planning-sim='download_planning_map&&ros2 launch autoware_launch planning_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-planning vehicle_model:=scout_vehicle sensor_model:=scout_sensor_kit'
 
 # rosbag replay simulation
 function download_rosbag_map() {
@@ -16,7 +16,7 @@ function download_rosbag_map() {
         unzip -d ~/autoware_map/ ~/autoware_map/sample-map-rosbag.zip
     fi
 }
-alias awf-launch-sample-rosbag-sim='download_rosbag_artifacts&&download_rosbag_map&&ros2 launch autoware_launch logging_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-rosbag vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit'
+alias awf-launch-sample-rosbag-sim='download_rosbag_artifacts&&download_rosbag_map&&ros2 launch autoware_launch logging_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-rosbag vehicle_model:=scout_vehicle sensor_model:=scout_sensor_kit'
 
 # play sample rosbag
 function download_rosbag_file() {
